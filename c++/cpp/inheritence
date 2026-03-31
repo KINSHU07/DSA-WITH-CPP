@@ -1,0 +1,25 @@
+#include <iostream>;
+using namespace std;
+class scooty
+{
+    public:
+    int top_speed;
+    float milege;
+    private:
+    float bootspace;
+};
+class bike : public scooty
+{
+public:
+    int gear;
+};
+int main(int argc, char const *argv[])
+{
+    bike b1;
+    b1.top_speed = 22;
+    b1.milege = 222;
+   // b1.bootspace=11;
+
+    b1.gear = 6;
+    return 0;
+}

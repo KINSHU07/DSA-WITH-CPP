@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+class cricketer
+{
+public:
+    int run;
+    float avg;
+    int matches;
+};
+class engineer
+{
+public:
+    int experience;
+    string domain;
+    int joining_year;
+};
+class phodu : public cricketer, engineer
+{
+public:
+    string name;
+    phodu(){
+
+    }
+};
+int main(int argc, char const *argv[])
+{
+    phodu p;
+    p.name= "kinshu";
+    cout<<p.name;
+
+    return 0;
+}

@@ -1,0 +1,2 @@
+carrot 40 3
+potato 40 6
